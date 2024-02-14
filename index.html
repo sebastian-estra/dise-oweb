@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa y Calzado</title><!--AQUI ES DONDE SE PONE EL TITULO DE LA PAGINA-->
+    <title>boton de animacion de redes sociales</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src='index.js'></script>
+</head>
+<body>
+    <header>
+
+        <h1>Bienvenido a nuestra tienda de ropa y calzado</h1>
+
+    </header>
+        
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">==</button>
+                <div class="dropdown-content">
+                    <nav>
+                         <ul>
+                            <li><a href="calzado/index.html">Calzado</a></li>
+                            <li><a href="prendas/prendas.html">Prendas</a></li>
+                            <li><a href="camisas/camisas.html">Camisas</a></li>
+                            <li><a href="camisetas/camisetas.html">Camisetas</a></li>
+                            <li><a href="pantalones/pantalones.html">Pantalones</a></li>
+                            <li><a href="sudaderas/sudaderas.html">Sudaderas</a></li>
+                            <li><a href="conjuntos/conjuntos.html">Conjuntos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <a id="whatsapp-link" href="#" target="_blank" onclick="enviarCarritoPorWhatsApp()">comprar</a>
+            <button class="agregar-al-carrito" onclick="toggleCarrito()">
+                <span class="icono-carrito">&#128722;</span>CARRITO
+                <div id="carrito" class="oculto"></div>
+            </button>
+        </div>
+
+    <section id="calzado">
+        <h2><a href="calzado/index.html" target="_blank">Calzado</a></h2>
+    
+        <div class="producto-contenedor">
+            <div class="producto" id="producto1">
+                <img src="calzado/fotos/zapato.jpg" alt="Calzado 1">
+                <p>Descripción del producto 1</p>
+                <button class="agregar-al-carrito" onclick="agregarAlCarrito('Zapato Elegante', 49.99)"><span class="icono-carrito">&#128722;</span></button>
+            </div>
+    
+            <div class="producto" id="producto2">
+                <img src="calzado/fotos/calzado.jpg" alt="Calzado 2">
+                <p>Descripción del producto 2</p>
+                <button class="agregar-al-carrito" onclick="agregarAlCarrito('Zapatillas Deportivas', 39.99)"><span class="icono-carrito">&#128722;</span></button>
+            </div>
+    
+            <div class="producto" id="producto3">
+                <img src="calzado/fotos/zapatilla.jpg" alt="Calzado 3">
+                <p>Descripción del producto 3</p>
+                <button class="agregar-al-carrito" onclick="agregarAlCarrito('Zapatillas Casuales', 29.99)"><span class="icono-carrito">&#128722;</span></button>
+            </div>
+        </div>
+    </section>
+
+        <section id="calzado">
+            <h2><a href="calzado/calzado.html"target="_blank">Calzado</a></h2><!--LA target="_blank ES PARA HACER UN
+                SALTPO DE PAGINA Y NO SE QUEDE EN LA MISMA PAGINA-->
+
+                <div class="producto-contenedor">
+                    <div class="producto">
+                        <img src="calzado/fotos/zapato.jpg" alt="Calzado 1">
+                        <p>Descripción del producto 1</p>
+                       
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/fotos/calzado.jpg" alt="Calzado 2">
+                        <p>Descripción del producto 2</p>
+                       
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/#.jpg" alt="Calzado 3">
+                        <p>Descripción del producto 3</p>
+                       
+                    </div>
+                     <!-- Puedes agregar más productos aquí -->
+                </div>       
+        </section>
+
+        <section id="prendas">
+           <h2><a href="prendas/prendas.html"target="_blank">Prendas</a></h2>
+               
+               
+                <div class="producto-contenedor">
+                    <div class="producto">
+                        <img src="prendas/fotos/D_NQ_NP_608830-MLU54967599603_042023-O.webp" alt="Calzado 1">
+                        <p>Descripción del producto 1</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="prendas/fotos/Tela-para-pantalones-com-com11.webp" alt="Calzado 2">
+                        <p>Descripción del producto 2</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/#.jpg" alt="Calzado 3">
+                        <p>Descripción del producto 3</p>
+                       
+                    </div>
+                    <!-- Puedes agregar más productos aquí -->
+                </div>       
+        </section>
+
+        <section id="camisas">
+            <h2><a href="camisas/camisas.html"target="_blank">Camisas</a></h2>
+               
+                <div class="producto-contenedor">
+                    <div class="producto">
+                         <img src="camisas/fotos/DSC00828_2.webp" alt="Calzado 1">
+                        <p>Descripción del producto 1</p>
+                       
+                    </div>
+                    <div class="producto">
+                        <img src="camisas/fotos/DSC00846.webp" alt="Calzado 2">
+                        <p>Descripción del producto 2</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/#.jpg" alt="Calzado 3">
+                        <p>Descripción del producto 3</p>
+                       
+                    </div>
+                        <!-- Puedes agregar más productos aquí -->
+                </div>
+
+        </section>
+
+        <section id="camisetas">
+            <h2><a href="camisetas/camisetas.html"target="_blank">Camisetas</a></h2>
+                
+                <div class="producto-contenedor">
+                    <div class="producto">
+                        <img src="camisetas/fotos/Camiseta-hombre-png.webp" alt="Calzado 1">
+                        <p>Descripción del producto 1</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="camisetas/fotos/camisetas-vinilo-color-personalizadas-gran-tirada-min-20-unid.webp" alt="Calzado 2">
+                        <p>Descripción del producto 2</p>
+                       
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/#.jpg" alt="Calzado 3">
+                        <p>Descripción del producto 3</p>
+                       
+                    </div>
+                        <!-- Puedes agregar más productos aquí -->
+                </div>
+
+        </section>
+        
+        <section id="pantalones">
+            <h2><a href="pantalones/pantalones.html"target="_blank">Pantalones</a></h2>
+                
+                <div class="producto-contenedor">
+                    <div class="producto">
+                        <img src="pantalones/fotos/images.jpeg" alt="Calzado 1">
+                        <p>Descripción del producto 1</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="pantalones/fotos/Pantalones-vaqueros-rasgados-para-mujer-ropa-informal-Sexy-pitillo-primavera-y-oto-o.webp" alt="Calzado 2">
+                        <p>Descripción del producto 2</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/#.jpg" alt="Calzado 3">
+                        <p>Descripción del producto 3</p>
+                        
+                    </div>
+                        <!-- Puedes agregar más productos aquí -->
+                </div>
+
+        </section>
+        
+        <section id="sudaderas">
+            <h2><a href="sudaderas/sudaderas.html"target="_blank">Sudaderas</a></h2>
+            
+                <div class="producto-contenedor">
+                    <div class="producto">
+                        <img src="sudaderas/fotos/imagen-sudadera_algodon-2105652-0-0-0-100.jpg" alt="Calzado 1">
+                        <p>Descripción del producto 1</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="sudaderas/fotos/sudaderas-originales.jpg" alt="Calzado 2">
+                        <p>Descripción del producto 2</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/#.jpg" alt="Calzado 3">
+                        <p>Descripción del producto 3</p>
+                        
+                    </div>
+                        <!-- Puedes agregar más productos aquí -->
+                </div>
+
+        </section>
+        
+        <section id="conjuntos">
+            <h2><a href="conjuntos/conjuntos.html"target="_blank">Conjuntos</a></h2>
+                
+                <div class="producto-contenedor">
+                    <div class="producto">
+                        <img src="conjuntos/fotos/sudaderas de marca hombre.webp" alt="Calzado 1">
+                        <p>Descripción del producto 1</p>
+                       
+                    </div>
+                    <div class="producto">
+                        <img src="conjuntos/fotos/sudaderas-para-hombre-azul-arctic-fox-col_1200x1200.webp" alt="Calzado 2">
+                        <p>Descripción del producto 2</p>
+                        
+                    </div>
+                    <div class="producto">
+                        <img src="calzado/#.jpg" alt="Calzado 3">
+                        <p>Descripción del producto 3</p>
+                        
+                    </div>
+                        <!-- Puedes agregar más productos aquí -->
+                </div>
+                
+        </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Tienda de Ropa y Calzado</p>
+    </footer>
+    
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+      
+            
+    ------- ESTO ME LO DIO CHATGPTE PARA IMPLEMENTAR LA LOGUICA PARA EL CARRITO DE COMPRAS-------------
+        
+        // Agrega esta función al final de tu archivo JavaScript
+        function agregarAlCarrito(nombre, precio) {
+        // Verifica si ya hay un carrito en localStorage
+        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+        // Agrega el nuevo producto al carrito
+        carrito.push({ nombre, precio });
+
+        // Actualiza el carrito en localStorage
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+
+        // Puedes agregar aquí lógica adicional, como mostrar un mensaje de éxito
+        alert('Producto agregado al carrito');
+        }
+
+
+    
+    
+  
+        <div class="redes-sociales">
+            <a href="https://www.wikidex.net/wiki/Pikachu"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.wikidex.net/wiki/Pikachu"><i class="fab fa-twitter"></i></a>
+            <!-- Agrega más redes sociales aquí 
+        </div>
+        <a href="#" class="fab fa-facebook"></a><!--ASI SE PONEN LOS ICONOS PARA LAS REDES SOCIALES 
+    Y DESPOUES LE DAS ESTILO EN CSS
+    -->
+</body>
+</html>
